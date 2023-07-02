@@ -3,8 +3,12 @@
 ## How to Use
 
 ```
-curl 
+curl https://db3-vercel-query.vercel.app/api/query?db=0x1efa81a1e1d69515e5d6667554af8b16536e6505&col=t2&query=/*
 ```
+there are three parameters
+* db the db3 network database address
+* col the collection name 
+* query the query str, you can get more example from [doc](https://docs.db3.network/functions/queryDoc.html)
 
 ### One-Click Deploy
 
